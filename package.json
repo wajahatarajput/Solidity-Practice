@@ -1,0 +1,23 @@
+{
+  "name": "solidity-practice",
+  "version": "1.0.0",
+  "description": "Progressive Solidity curriculum: basics through OOP, advanced patterns, and tokens",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "hardhat",
+    "learning"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
